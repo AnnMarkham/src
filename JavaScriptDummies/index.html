@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+
+<body>
+   <!--each statement ends in ;  This is and HTML Comment
+   Unlike html, javascript is case sensitive-->
+<script>
+    //Javascript single line comment - Javascript ignores white space//
+    /*JavaScript multiple line comment 
+    camel case - use UpperCamelCase for naming classes and components e.g. React.js components
+    Use lowerCamelCase to name variables
+    use underscore if you are getting data from an external source thatalready containes underscores
+    dashes may be between certain code e.r. border-radius or accept-charset*/
+    let normalName= 'Ann'; // Ann is a value;//
+    let JavaScriptName = normalName + 'Script';//expressions are units of code that are evaluated and become values (normalName + Script becomes AnnScript)
+    console.log ('Your JavaScript Name is ' + JavaScriptName)//Operators do something with a value + is the concatenation operator that joins 2 values//
+
+/* keywords have special meaning and cause Javascritp to do something - Let is a keyword that tell javascript to 
+   store the value on the right side of =
+   = is the assignment operatorusing the name on the left side of = */
+
+   /* The process of assigning a value to a name is called initializing a variable */
+let personName= prompt ("What is your name?");
+alert ('Hello, '+ personName);
+</script>
+
+<!--This is an event happening to html elements and running JavaScript cpmd wjem the event happens
+Note - This is JavaScript attachet to an HTML event attribute. it is outside of the scritp tag
+
+Event attributes are the old way responding to events in html. mostly because combining html and javascript 
+makes code more difficult to maintain. Also they run in global scope which makes them tricky. and it isn't
+possible to listen for multiple events using these attributes-->
+<button onclick ="alert ('Welcome to JavaScript for Dummies')">
+    Click here for an important message
+</button>
+</body>
+</html>
