@@ -13,5 +13,8 @@ element with an id 'ball'
 ```
 2.The script will detect when the left or right arrow 
 keys are pressed and will move the ball element accordingly.
-3.
+
+#Javascript All-in-One for Dummies
+JavaScript, React, Vue, Svelte, and Node
+
 
